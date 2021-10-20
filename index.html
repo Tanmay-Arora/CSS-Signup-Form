@@ -48,21 +48,21 @@
                                     <span class="break2"></span>
                                 </div>
                                 <form name="reg_form" action="/signup.php" method="post" onsubmit="return form_validate()" class="mb-3">
-                                    <label for="fname-input"><b>&nbsp;&nbsp;First Name</b></label>
+                                    <label for="fname-input"><b>&nbsp;&nbsp;First Name</b><span class="text-danger">*</span></label>
                                     <div class="form-group d-flex justify-content-center">
-                                        <input type="name" class="form-control" id="fname-input" placeholder="First Name">
+                                        <input type="name" class="form-control" id="fname-input" placeholder="First Name" required>
                                     </div>
-                                    <label for="lname-input"><b>&nbsp;&nbsp;Last Name</b></label>
+                                    <label for="lname-input"><b>&nbsp;&nbsp;Last Name</b><span class="text-danger">*</span></label>
                                     <div class="form-group d-flex justify-content-center">
-                                        <input type="name" class="form-control" id="lname-input" placeholder="Last Name">
+                                        <input type="name" class="form-control" id="lname-input" placeholder="Last Name" required>
                                     </div>
-                                    <label for="fname-input"><b>&nbsp;&nbsp;Email Address</b></label>
+                                    <label for="fname-input"><b>&nbsp;&nbsp;Email Address</b><span class="text-danger">*</span></label>
                                     <div class="form-group d-flex justify-content-center">
-                                        <input type="email" class="form-control" id="email-input" placeholder="Email Address">
+                                        <input type="email" class="form-control" id="email-input" placeholder="Email Address" required>
                                     </div>
-                                    <label for="fname-input"><b>&nbsp;&nbsp;Password</b></label>
+                                    <label for="fname-input"><b>&nbsp;&nbsp;Password</b><span class="text-danger">*</span></label>
                                     <div class="form-group d-flex justify-content-center">
-                                        <input type="password" class="form-control" id="pass-input" placeholder="Password">
+                                        <input type="password" class="form-control" id="pass-input" placeholder="Password" required>
                                     </div>
                                     <p class="declaration">By clicking Sign Up, you agree to our&nbsp<a href="#"><span class="text-primary">Terms of Use</span></a>&nbspand our&nbsp<a href="#"><span class="text-primary">Privacy Policy</span></a>.</p>
                                     <div class="d-flex justify-content-center">
