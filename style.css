@@ -1,169 +1,262 @@
-html,body{
-    background-color: rgba(238, 230, 230, 0.911);
-    width: 100%;
-    height: 100%;
-    margin: 0;
+html,
+body {
+  background-color: rgba(238, 230, 230, 0.911);
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
 }
 
-.mainWrapper{
-    width: 100%;
-    height: 100%;
+.mainWrapper {
+  padding-top: 5%;  
+  height: 100%;
+  width: 100%;
 }
 
-.futura-font-bold{
-    font-family: futura-pt-bold, sans-serif;
-    font-weight: 700;
-    font-style: normal;
+.futura-font-bold {
+  font-family: futura-pt-bold, sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
-.futura-book{
-    font-family: futura-pt, sans-serif;
-    font-weight: 400;
-    font-style: normal;
+.futura-book {
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-.futura-light{
-    font-family: futura-pt, sans-serif;
-    font-weight: 100;
-    font-style: normal;
+.futura-light {
+  font-family: futura-pt, sans-serif;
+  font-weight: 100;
+  font-style: normal;
 }
 
-.futura-light-obl{
-    font-family: futura-pt, sans-serif;
-    font-weight: 300;
-    font-style: italic;
-
+.futura-light-obl {
+  font-family: futura-pt, sans-serif;
+  font-weight: 300;
+  font-style: italic;
 }
 
-.futura-light-pro{
-    font-family: freight-sans-pro, sans-serif;
-    font-weight: 400;
-    font-style: normal;
+.futura-light-pro {
+  font-family: freight-sans-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-.nav-logo{
-    width: 30px;
-    height: 35px;
+.nav-logo {
+  width: 30px;
+  height: 35px;
 }
 
-.shadow-nav{
-    border-radius: 2px;
-    box-shadow: 0px 0px 10px #999;
+.shadow-nav {
+  border-radius: 2px;
+  box-shadow: 0px 0px 10px #999;
 }
 
-.home{
+.home {
+  width: 100%;
+  height: 100%;
+}
+
+.form-card {
+  border-radius: 10px;
+  width: 1200px;
+  height: 99%;
+}
+
+.card-header {
+  padding: 0rem 0rem;
+  margin-bottom: 0;
+  background-color: white;
+  border-bottom: none;
+}
+
+.head-text {
+  font-weight: 500;
+}
+
+.main-text {
+  font-size: 35px;
+  font-weight: 350;
+  color: rgba(1, 1, 1, 0.7);
+  margin-bottom: 8px;
+}
+
+.sub-text {
+  text-align: center;
+  font-weight: 500;
+  color: rgba(1, 1, 1, 0.4);
+  margin-bottom: 8px;
+}
+
+.btn-default {
+  border-radius: 30px;
+}
+
+.supportive-buttons-s {
+    display: none;
+  }
+
+  .supportive-buttons-l {
     display: flex;
-    align-items: center;
-    position: relative;
-    width: 100%;
-    height: 100%;
+  }
+
+.fb-signup {
+  width: 240px;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: 0px 0px 10px #999;
 }
 
-.form-card{
-    width: 550px;
+.google-signup {
+  width: 240px;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: 0px 0px 10px #999;
 }
 
-.card-header{
-    padding: 0rem 0rem; 
-    margin-bottom: 0;
-    background-color: white;
-    border-bottom: none;
+.fa-google:before {
+  text-align: center;
+  font-size: 25px;
 }
 
-.head-text{
-    font-weight: 500;
-}
-
-.main-text{
-    font-size: 35px;
-    font-weight: 350;
-    color: rgba(1, 1, 1, 0.7);
-    margin-bottom: 8px;
-}
-
-.sub-text{
-    text-align: center;
-    font-weight: 500;
-    color: rgba(1, 1, 1, 0.4);
-    margin-bottom: 8px;
-}
-
-.btn-default{
-    border-radius: 30px;
-}
-
-.fb-signup{
-    width: 240px;
-    border-radius: 5px;
-    padding-left: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    box-shadow: 0px 0px 10px #999;
-}
-
-.google-signup{
-    width: 240px;
-    border-radius: 5px;
-    padding-left: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    box-shadow: 0px 0px 10px #999;
-}
-
-.fa-google:before{
-    text-align: center;
-    font-size: 25px;
-}
-
-.fa-google{
-    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+.fa-google {
+  background: conic-gradient(
+      from -45deg,
+      #ea4335 110deg,
+      #4285f4 90deg 180deg,
+      #34a853 180deg 270deg,
+      #fbbc05 270deg
+    )
+    73% 55%/150% 150% no-repeat;
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
   -webkit-text-fill-color: transparent;
 }
 
-.fa-facebook-square:before{
-    text-align: center;
-    font-size: 27px;
-    color: rgba(66, 103, 178, 1);
+.fa-facebook-square:before {
+  text-align: center;
+  font-size: 27px;
+  color: rgba(66, 103, 178, 1);
 }
 
-.fa{
-    vertical-align: middle;
+.fa {
+  vertical-align: middle;
 }
 
-.break1, .break2{
-    display:block; /*or whatever width you want the effect of <hr>*/
-    width: 45%;
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 25px;
+.break1,
+.break2 {
+  display: block;
+  width: 45%;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 25px;
 }
 
-.break-text{
-    font-weight: 300;
+.break-text {
+  font-weight: 300;
 }
 
-.form-control{
-    width: 97%;
+.form-control {
+  width: 97%;
 }
 
-.declaration{
-    font-size: 14px;
-    font-weight: 300px;
-    color: rgba(1, 1, 1, 0.4);
-    text-align: center;
+.fname-required,
+.lname-required,
+.mail-required,
+.pass-required {
+  display: none;
 }
 
-.submit-button{
-    width: 85%;
+.declaration {
+  font-size: 14px;
+  font-weight: 300px;
+  color: rgba(1, 1, 1, 0.4);
+  text-align: center;
 }
 
 .submit-button {
-    color: white;
-    background-image: linear-gradient(to right, #6253e1, #852D91, #A3A1FF, #F24645);
-    box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
-    border-radius: 10px;
-   
+  width: 85%;
 }
 
+.submit-button {
+  color: white;
+  background-image: linear-gradient(
+    to right,
+    #6253e1,
+    #852d91,
+    #a3a1ff,
+    #f24645
+  );
+  box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    .mainWrapper {
+      padding-top: 25%;
+      height: 100%;
+      width: 100%;
+    }
+  
+    .supportive-buttons-s {
+        display: none;
+      }
+    
+      .supportive-buttons-l {
+        display: flex;
+      }
+  
+    .fb-signup {
+      width: 240px;
+    }
+  
+    .google-signup {
+      width: 240px;
+    }
+  
+    .main-text {
+      font-size: 18px;
+    }
+  }
+
+@media screen and (max-width: 576px) {
+  .mainWrapper {
+    padding-top: 90px;
+    height: 100%;
+    width: 100%;
+  }
+
+  .supportive-buttons-s {
+    display: flex;
+  }
+
+  .supportive-buttons-l {
+    display: none;
+  }
+
+  .fb-signup {
+    width: 140px;
+  }
+
+  .google-signup {
+    width: 140px;
+  }
+
+  .main-text {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .fb-signup {
+    width: 125px;
+  }
+
+  .google-signup {
+    width: 125px;
+  }
+}
