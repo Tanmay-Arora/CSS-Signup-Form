@@ -131,6 +131,10 @@ body {
     text-decoration: none;
 }
 
+.signup-redir:hover{
+  text-decoration: none;
+}
+
 .head-text {
   font-weight: 500;
 }
