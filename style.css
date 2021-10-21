@@ -1,6 +1,15 @@
 html,
 body {
-  background-color: rgba(238, 230, 230, 0.911);
+  /*background-color: rgba(238, 230, 230, 0.911);*/
+/*background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,38,121,1) 35%, rgba(0,212,255,1) 100%);*/
+background-image: linear-gradient(
+    to right,
+   
+    #6253e1,
+    #852d91,
+    #a3a1ff,
+    #f24645
+  );
   width: 100vw;
   height: 100vh;
   margin: 0;
